@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    background-image: url('/Front-End/ImagesIcons/pngtree-photo-in-a-coffee-shop-picture-image_2468627.jpg');
+    background-size: cover;
+}
+
+.sign-in-container {
+    margin-left: 900px;
+    margin-top: 170px;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+    width:700px;
+    
+
+}
+
+.sign-in-form {
+    height:500px;
+    width:500px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:#f8f9fa76;
+    border-radius: 250px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 250px;
+    -ms-border-radius: 250px;
+    -o-border-radius: 250px;
+}
+
+.sign-in-form h1 {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+   
+   
+}
+
+.username-container label {
+    margin-right: 100px;
+    display: inline-block;
+    margin-bottom: 40px;
+    font-weight: bold;
+    
+}
+.password-container label {
+    margin-right: 100px;
+    display: inline-block;
+    font-weight: wait;
+    
+}
+
+.username-container input {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.password-container input {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.btn-SignIn{
+    margin-top:40px;
+    margin-bottom: 20px;
+    
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-right: 100px;
+    margin-left: 170px;
+}
+.btn-SignIn:hover{
+    background-color: #0056b3;
+}
+.btn-SignUp{
+    margin-top:40px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+}
+.btn-SignUp:hover{
+    background-color: green;
+}
+.forgot-password{
+    margin-left: 150px;
+    margin-top: 20px;
+    color: blue;
+    font-weight: bold;
+}

@@ -1,0 +1,214 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh auto;
+    width: 100vw auto;
+    
+
+}
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* Button Styling */
+  .mode-change {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    
+  } 
+    
+  
+
+/* Navbar */
+.navbar.bg-body-tertiary.fixed-top {
+    background-color: rgb(154, 200, 252) !important;
+    color: #ffffff !important;
+    width: 100% auto;
+    height: 100px auto;
+    display: flex;
+    position: static;
+
+}
+
+/* add cart + Notification Button + hamburger button */
+.button-addcart {
+    margin-left: 400px;
+    display: flex;
+    align-items:baseline;
+    
+
+
+}
+
+.add-catr {
+    background-color: rgba(64, 64, 233, 0.655);
+    color: white;
+    width: 100px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 15px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.add-catr svg {
+    fill: white;
+    margin-right: 2px;
+}
+
+
+
+/* Inbox Notification Button */
+.btn.btn-primary.position-relative {
+    margin-left: 10px;
+    margin-right: 27px;
+    display: flex;
+    height: 39px;
+}
+/*search container*/
+.search-container {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    
+}
+.search-bar{
+  width:450px;
+  height: 29x;
+  border-radius: 10px;
+  border: 3px solid #3cdd0b;
+  
+}
+.search-button{
+    height: 29x;
+    margin-left: 2px;
+    color: orange;
+    
+}
+
+
+/* food cards */
+.food-card-container {
+    display: grid;
+    margin-top: 110px;
+    margin-left: 5px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.card {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-right: 6px;
+}
+
+.greeting-container {
+    display: flex;
+    align-items: center;
+
+    margin-top: 40px;
+    font-size: 24px;
+    justify-content: center;
+
+}
+
+
+
+
+/* Foods Type (Tabs) */
+.foods-type {
+    margin-left: 60px;
+
+}
+
+.food-list {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.food-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+.food-list a:hover {
+
+    color: green;
+}
+
+.mode-change {
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+/*Add Remove*/
+.btn.btn-primary {
+
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+
+.available-quantiyty {
+    position: absolute;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: black;
+    margin-top: -5px;
+    color: green;
+}
+
+/*animation part*/
+.offer-animation {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff4500;
+    animation: fadeInOut 2s infinite;
+    text-align: center;
+    margin-top: 40px;
+    animation: fadeInOut 2s ease-in-out 1;
+    /*only3times*/
+    -webkit-animation: fadeInOut 2s ease-in-out 2;
+    -webkit-animation: fadeInOut 2s ease-in-out 1;
+}
+
+@keyframes fadeInOut {
+
+    0%,
+    100% {
+        opacity: 0;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+    }
+}
