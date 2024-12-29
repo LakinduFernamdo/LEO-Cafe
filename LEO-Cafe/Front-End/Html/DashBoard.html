@@ -18,13 +18,13 @@
             <div class="foods-type">
                 <ul class="tabs">
                     <li class="food-list">
-                        <a href="#breakfast" class="tab-link">Snack</a>
+                        <a href="/Front-End/Html/Snacks.html" class="tab-link">Snack</a>
                     </li>
                     <li class="food-list">
-                        <a href="#lunch" class="tab-link">Coffee</a>
+                        <a href="/Front-End/Html/CoffeePage.html" class="tab-link">Coffee</a>
                     </li>
                     <li class="food-list">
-                        <a href="#dinner" class="tab-link">Dinner</a>
+                        <a href="/Front-End/Html/Dinner.html" class="tab-link">Dinner</a>
                     </li>
                 </ul>
             </div>
@@ -68,6 +68,7 @@
                             <li class="nav-item">
                                 <button onclick="changeMode()" class="mode-change" id="mode-changeid">Theme</button>
                                 <script src="/Front-End/JS/ChangeMode.js"></script>
+
                             </li>
 
                             <li class="nav-item">
@@ -103,72 +104,6 @@
     </div>
     <script src="/Front-End/JS/Greeting.js"></script>
 
-
-
-
-
-
-    <!--Fodd Items-->
-    <div class="food-card-container">
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <div class="available-quantiyty"> <!--Available or Not-->
-                    Available
-                </div>
-                <a href="#" class="btn btn-primary">Add</a>
-                <a href="#" class="btn btn-primary">Remove</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <div class="available-quantiyty"> <!--Available or Not-->
-                    Available
-                </div>
-                <a href="#" class="btn btn-primary">Add</a>
-                <a href="#" class="btn btn-primary">Remove</a>
-            </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <div class="available-quantiyty"> <!--Available or Not-->
-                    Available
-                </div>
-                <a href="#" class="btn btn-primary">Add</a>
-                <a href="#" class="btn btn-primary">Remove</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <div class="available-quantiyty"> <!--Available or Not-->
-                    Available
-                </div>
-                <a href="#" class="btn btn-primary">Add</a>
-                <a href="#" class="btn btn-primary">Remove</a>
-
-
-
-
-            </div>
-        </div>
-    </div>
-
     <!--Offer Animation-->
     <div class="offer-animation">
         Get 10% Offer
@@ -177,11 +112,95 @@
 
 
 
+    <!--Fodd Items-->
+    <div class="food-card-container">
+        <div class="card" style="width: 18rem;">
+            <img src="/Front-End/ImagesIcons/burger-with-melted-cheese.jpg" class="card-img-top" alt="burgers">
+            <div class="card-body">
+                <h5 class="card-title">Cheese Turkey Burger</h5>
+                <h6>Rs 600.00</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <div class="quantity" data-count="0" id="burger-quantity">Quantity: 0</div>
+                <div class="availablity">
+                    Available
+                </div>
+                <button class="btn btn-primary add-button" data-item="Cheese burger"
+                    data-quantity-id="burger-quantity">Add</button>
+                <button class="btn btn-primary" data-item="Cheese Turkey Burger">Remove</button>
 
 
+
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="/Front-End/ImagesIcons/05_oregano_istock-1174701047.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Chicken pan pizza</h5>
+                <h6>Rs 400.00</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                    <div class="quantity" data-count="0" id="pizza-quantity">Quantity: 0</div>
+                    <div class="availablity">
+                        Available
+                    </div>
+                    <button class="btn btn-primary add-button" data-item="pizza"
+                        data-quantity-id="pizza-quantity">Add</button>
+                    
+
+                <button class="btn btn-primary" id="remove-button" data-item="Chicken pan pizza">Remove</button>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/Front-End/ImagesIcons/2+Piece+Chickenjoy+with+Gravy.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Chicken Nuggets</h5>
+                <h6>Rs 400.00</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <div class="quantity" data-count="0" id="nugget-quantity">Quantity: </div>
+                <div class="availablity"> <!--Available or Not-->
+                    Available
+                </div>
+                <button class="btn btn-primary" id="add-button" data-item="Chicken Nuggets">Add</button>
+
+                <button class="btn btn-primary" id="remove-button" data-item="Chicken Nuggets">Remove</button>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="/Front-End/ImagesIcons/istockphoto-1262783498-612x612.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Cheese Sandwich</h5>
+                <h6>Rs 300.00</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <div class="quantity" data-count="0" id="sandwich-quantity">Quantity: </div>
+                <div class="availablity"> <!--Available or Not-->
+                    Available
+                </div>
+                <button class="btn btn-primary" id="add-button" data-item="Cheese Sandwich">Add</button>
+
+                <button class="btn btn-primary" id="remove-button" data-item="Cheese Sandwich">Remove</button>
+
+
+
+
+            </div>
+        </div>
+
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <script src="/Front-End/JS/AddCount.js"></script>
+
+
+
+
+
+
 </body>
 
 </html>
